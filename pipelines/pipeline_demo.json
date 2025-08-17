@@ -1,0 +1,10 @@
+{
+  "name": "pipeline_demo",
+  "activities": [
+    {
+      "name": "LogActivity",
+      "type": "ExecuteNotebook",
+      "notebook": "notebook_demo.ipynb"
+    }
+  ]
+}

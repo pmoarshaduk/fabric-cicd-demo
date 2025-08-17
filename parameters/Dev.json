@@ -1,0 +1,10 @@
+{
+  "workspace_id": "2d884eec-53e1-496a-b9bd-69afdd629ed9",
+  "environment": "DEV",
+  "items": [
+    {
+      "name": "LH_DWH_DEV",
+      "type": "Lakehouse"
+    }
+  ]
+}

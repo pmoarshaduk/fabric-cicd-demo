@@ -1,0 +1,5 @@
+DEV:
+  Notebook:
+    notebook_demo.ipynb:
+      parameters:
+        spark_pool_name: "default_pool"
