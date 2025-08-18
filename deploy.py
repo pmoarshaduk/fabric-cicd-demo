@@ -1,22 +1,41 @@
-import os
-import shutil
-import json
-from pathlib import Path
-from azure.identity.broker import InteractiveBrowserBrokerCredential
-from fabric_cicd import FabricWorkspace, publish_all_items, unpublish_all_orphan_items
+import yaml
+from azure.identity import (
+    InteractiveBrowserCredential,
+    TokenCachePersistenceOptions
+)
+from fabric_cicd import FabricWorkspace, publish_all_items
 
-def clear_token_cache():
-    cache_path = Path(os.getenv("LOCALAPPDATA", "")) / ".IdentityService"
-    if cache_path.exists():
-        print(f"🧹 Clearing token cache at {cache_path}")
-        try:
-            shutil.rmtree(cache_path)
-            print("✅ Token cache cleared.")
-        except Exception as e:
-            print(f"❌ Failed to clear token cache: {e}")
-    else:
-        print("ℹ️ No token cache found to clear.")
+# ── Option B: Disable persistent MSAL cache ──────────────────────────────────
+cache_opts = TokenCachePersistenceOptions(enable_persistent_cache=False)
 
-# 🔐 Step 1: Clear cache and login
-clear_token_cache()
-credential = InteractiveBrowserBrokerCredential()
+credential = InteractiveBrowserCredential(
+    login_hint="254096@office365works.net",         # your target account
+    prompt="select_account",                        # force account selector
+    token_cache_persistence_options=cache_opts      # disable on-disk cache
+)
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Load and flatten your parameters
+with open("parameter.yml", "r") as f:
+    full_cfg = yaml.safe_load(f)
+
+# If you’re still using a DEV wrapper
+params = {}
+for item_type, items in full_cfg.get("DEV", {}).items():
+    for name, node in items.items():
+        params[name] = node.get("parameters", {})
+
+# Build your FabricWorkspace
+workspace = FabricWorkspace(
+    workspace_id="2d884eec-53e1-496a-b9bd-69afdd629ed9",
+    repository_directory=".",
+    credential=credential,
+    item_type_in_scope=[
+        "Notebook", "DataPipeline", "Environment", "SemanticModel", "Report"
+    ],
+    parameters=params
+)
+
+print("Starting interactive OAuth flow…")
+publish_all_items(workspace)
+print("Deployment complete.")

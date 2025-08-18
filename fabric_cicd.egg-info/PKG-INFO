@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: fabric-cicd
+Version: 0.1.0
+Summary: Local deployment tool for Microsoft Fabric CI/CD
+Author: Muhammad
+Requires-Dist: azure-identity>=1.14.0
+Requires-Dist: pyyaml>=6.0.2
+Requires-Dist: requests>=2.32.0
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: summary

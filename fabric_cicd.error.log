@@ -1,0 +1,13 @@
+2025-08-17 19:50:41,386 - INFO - fabric_cicd._common._fabric_endpoint - Executing as User 'Muhammad.Arshad@inventivtechnology.com'
+2025-08-17 19:50:41,390 - INFO - fabric_cicd._common._validate_input - Relative directory path '.' resolved as 'D:\New folder\d Drive\DWH\CICD Pipeline\fabric-cicd-demo'
+2025-08-17 19:50:41,392 - ERROR - fabric_cicd._parameter._parameter - Validation failed with error: Invalid parameter name 'Notebook' found in the parameter file
+2025-08-17 19:50:41,392 - ERROR - fabric_cicd.fabric_workspace - Deployment terminated due to an invalid parameter file
+Traceback (most recent call last):
+  File "D:\New folder\d Drive\DWH\CICD Pipeline\fabric-cicd-demo\deploy.py", line 29, in <module>
+    workspace = FabricWorkspace(
+                ^^^^^^^^^^^^^^^^
+  File "D:\New folder\d Drive\DWH\CICD Pipeline\fabric-cicd-demo\.venv\Lib\site-packages\fabric_cicd\fabric_workspace.py", line 151, in __init__
+    self._refresh_parameter_file()
+  File "D:\New folder\d Drive\DWH\CICD Pipeline\fabric-cicd-demo\.venv\Lib\site-packages\fabric_cicd\fabric_workspace.py", line 181, in _refresh_parameter_file
+    raise ParameterFileError(msg, logger)
+fabric_cicd._common._exceptions.ParameterFileError: Deployment terminated due to an invalid parameter file

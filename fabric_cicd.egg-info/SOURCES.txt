@@ -1,0 +1,7 @@
+README.md
+setup.py
+fabric_cicd.egg-info/PKG-INFO
+fabric_cicd.egg-info/SOURCES.txt
+fabric_cicd.egg-info/dependency_links.txt
+fabric_cicd.egg-info/requires.txt
+fabric_cicd.egg-info/top_level.txt
