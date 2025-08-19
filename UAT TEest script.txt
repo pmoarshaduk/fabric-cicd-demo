@@ -1,0 +1,19 @@
+Test Scenario Request: CI/CD Flow for File Deployment to PROD
+
+I'd like to run a complete test case to validate the CI/CD pipeline. Here's what I want to do:
+
+Test File: I have a file named sales_data1.csv.
+
+Target Location: I want to place this file in my local development folder. Please confirm the correct path to my repo folder.
+
+CI/CD Flow: I want to follow the full CI/CD process step by step to:
+
+Load this file into the Fabric workspace
+
+Validate its deployment through the pipeline
+
+Publish it to the PROD environment
+
+Validation: Let me know if any steps are missing or unclear in this flow.
+
+Confirmation: Do you understand what I’m trying to test with this scenario?
