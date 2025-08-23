@@ -1,0 +1,6 @@
+2025-08-21 17:50:59,534 - INFO - 🚀 Starting Fabric deployment with enhanced diagnostics
+2025-08-21 17:52:09,382 - INFO - ✅ Token has valid Fabric API permissions
+2025-08-21 17:52:10,148 - ERROR - ❌ User not found in workspace - Need to be added as member
+2025-08-21 17:52:10,937 - INFO - Connection test response: 404
+2025-08-21 17:52:10,937 - ERROR - ❌ 404 Not Found - Workspace ID may be incorrect
+2025-08-21 17:52:10,937 - ERROR - Verify workspace ID: 2d884eec-53e1-496a-b9bd-69afdd529ed9

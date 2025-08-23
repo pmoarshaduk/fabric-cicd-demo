@@ -1,0 +1,65 @@
+2025-08-21 19:00:02,139 - INFO - Starting Fabric deployment with Device Code Flow
+2025-08-21 19:00:52,896 - WARNING - Deployment completed with issues
+2025-08-21 19:08:04,411 - INFO - 🚀 Starting Fabric deployment...
+2025-08-21 19:08:37,738 - INFO - 
+🔧 Deploying to DEV workspace (ID: 2d884eec-53e1-496a-b9bd-69afdd529ed9)
+2025-08-21 19:08:38,766 - ERROR - ❌ Failed to deploy notebook: 415 Client Error: Unsupported Media Type for url: https://api.fabric.microsoft.com/v1/workspaces/2d884eec-53e1-496a-b9bd-69afdd529ed9/notebooks
+2025-08-21 19:08:38,767 - ERROR - ❌ Deployment failed for notebooks/notebook_demo.ipynb: 415 Client Error: Unsupported Media Type for url: https://api.fabric.microsoft.com/v1/workspaces/2d884eec-53e1-496a-b9bd-69afdd529ed9/notebooks
+2025-08-21 19:08:38,772 - INFO - 
+🔧 Deploying to TEST workspace (ID: 7bf01073-78b1-4c5d-86c8-629a0237243b)
+2025-08-21 19:08:39,755 - ERROR - ❌ Failed to deploy notebook: 415 Client Error: Unsupported Media Type for url: https://api.fabric.microsoft.com/v1/workspaces/7bf01073-78b1-4c5d-86c8-629a0237243b/notebooks
+2025-08-21 19:08:39,756 - ERROR - ❌ Deployment failed for notebooks/notebook_demo.ipynb: 415 Client Error: Unsupported Media Type for url: https://api.fabric.microsoft.com/v1/workspaces/7bf01073-78b1-4c5d-86c8-629a0237243b/notebooks
+2025-08-21 19:08:39,764 - INFO - 
+🔧 Deploying to PROD workspace (ID: 69850df3-07c5-431b-ab85-475fe2266e70)
+2025-08-21 19:08:40,682 - ERROR - ❌ Failed to deploy notebook: 415 Client Error: Unsupported Media Type for url: https://api.fabric.microsoft.com/v1/workspaces/69850df3-07c5-431b-ab85-475fe2266e70/notebooks
+2025-08-21 19:08:40,682 - ERROR - ❌ Deployment failed for notebooks/notebook_demo.ipynb: 415 Client Error: Unsupported Media Type for url: https://api.fabric.microsoft.com/v1/workspaces/69850df3-07c5-431b-ab85-475fe2266e70/notebooks
+2025-08-21 19:08:40,684 - INFO - 
+🎉 Deployment completed! Check fabric_deployment.log for details
+2025-08-22 00:46:47,940 - INFO - 🚀 Starting Fabric deployment...
+2025-08-22 00:47:25,194 - INFO - 
+🔧 Deploying to DEV workspace (ID: 2d884eec-53e1-496a-b9bd-69afdd529ed9)
+2025-08-22 00:47:25,976 - ERROR - ❌ Failed to deploy notebook: 415 Client Error: Unsupported Media Type for url: https://api.fabric.microsoft.com/v1/workspaces/2d884eec-53e1-496a-b9bd-69afdd529ed9/notebooks
+2025-08-22 00:47:25,976 - ERROR - ❌ Deployment failed for notebooks/notebook_demo.ipynb: 415 Client Error: Unsupported Media Type for url: https://api.fabric.microsoft.com/v1/workspaces/2d884eec-53e1-496a-b9bd-69afdd529ed9/notebooks
+2025-08-22 00:47:25,979 - INFO - 
+🔧 Deploying to TEST workspace (ID: 7bf01073-78b1-4c5d-86c8-629a0237243b)
+2025-08-22 00:47:26,756 - ERROR - ❌ Failed to deploy notebook: 415 Client Error: Unsupported Media Type for url: https://api.fabric.microsoft.com/v1/workspaces/7bf01073-78b1-4c5d-86c8-629a0237243b/notebooks
+2025-08-22 00:47:26,757 - ERROR - ❌ Deployment failed for notebooks/notebook_demo.ipynb: 415 Client Error: Unsupported Media Type for url: https://api.fabric.microsoft.com/v1/workspaces/7bf01073-78b1-4c5d-86c8-629a0237243b/notebooks
+2025-08-22 00:47:26,759 - INFO - 
+🔧 Deploying to PROD workspace (ID: 69850df3-07c5-431b-ab85-475fe2266e70)
+2025-08-22 00:47:27,620 - ERROR - ❌ Failed to deploy notebook: 415 Client Error: Unsupported Media Type for url: https://api.fabric.microsoft.com/v1/workspaces/69850df3-07c5-431b-ab85-475fe2266e70/notebooks
+2025-08-22 00:47:27,621 - ERROR - ❌ Deployment failed for notebooks/notebook_demo.ipynb: 415 Client Error: Unsupported Media Type for url: https://api.fabric.microsoft.com/v1/workspaces/69850df3-07c5-431b-ab85-475fe2266e70/notebooks
+2025-08-22 00:47:27,625 - INFO - 
+🎉 Deployment completed! Check fabric_deployment.log for details
+2025-08-22 00:51:04,434 - INFO - 🚀 Starting Fabric deployment...
+2025-08-22 00:51:49,179 - INFO - 
+🔧 Deploying to DEV workspace (ID: 2d884eec-53e1-496a-b9bd-69afdd529ed9)
+2025-08-22 00:51:50,152 - ERROR - ❌ Failed to deploy notebook: 400 Client Error: Bad Request for url: https://api.fabric.microsoft.com/v1/workspaces/2d884eec-53e1-496a-b9bd-69afdd529ed9/notebooks
+2025-08-22 00:51:50,153 - ERROR - ❌ Deployment failed for notebooks/notebook_demo.ipynb: 400 Client Error: Bad Request for url: https://api.fabric.microsoft.com/v1/workspaces/2d884eec-53e1-496a-b9bd-69afdd529ed9/notebooks
+2025-08-22 00:51:50,160 - INFO - 
+🔧 Deploying to TEST workspace (ID: 7bf01073-78b1-4c5d-86c8-629a0237243b)
+2025-08-22 00:51:51,084 - ERROR - ❌ Failed to deploy notebook: 400 Client Error: Bad Request for url: https://api.fabric.microsoft.com/v1/workspaces/7bf01073-78b1-4c5d-86c8-629a0237243b/notebooks
+2025-08-22 00:51:51,085 - ERROR - ❌ Deployment failed for notebooks/notebook_demo.ipynb: 400 Client Error: Bad Request for url: https://api.fabric.microsoft.com/v1/workspaces/7bf01073-78b1-4c5d-86c8-629a0237243b/notebooks
+2025-08-22 00:51:51,092 - INFO - 
+🔧 Deploying to PROD workspace (ID: 69850df3-07c5-431b-ab85-475fe2266e70)
+2025-08-22 00:51:52,140 - ERROR - ❌ Failed to deploy notebook: 400 Client Error: Bad Request for url: https://api.fabric.microsoft.com/v1/workspaces/69850df3-07c5-431b-ab85-475fe2266e70/notebooks
+2025-08-22 00:51:52,141 - ERROR - ❌ Deployment failed for notebooks/notebook_demo.ipynb: 400 Client Error: Bad Request for url: https://api.fabric.microsoft.com/v1/workspaces/69850df3-07c5-431b-ab85-475fe2266e70/notebooks
+2025-08-22 00:51:52,147 - INFO - 
+🎉 Deployment completed! Check fabric_deployment.log for details
+2025-08-22 00:55:46,507 - INFO - 🚀 Starting Fabric deployment...
+2025-08-22 00:56:24,415 - INFO - 
+🔧 Deploying to DEV workspace (ID: 2d884eec-53e1-496a-b9bd-69afdd529ed9)
+2025-08-22 00:56:25,159 - ERROR - ❌ API response: 400 - {"requestId":"38e6664a-a02a-48a9-8007-883c667f03f7","errorCode":"InvalidInput","moreDetails":[{"errorCode":"InvalidParameter","message":"The DisplayName field is required."}],"message":"The request has an invalid input"}
+2025-08-22 00:56:25,160 - ERROR - ❌ Failed to deploy notebook: 400 Client Error: Bad Request for url: https://api.fabric.microsoft.com/v1/workspaces/2d884eec-53e1-496a-b9bd-69afdd529ed9/notebooks
+2025-08-22 00:56:25,161 - ERROR - ❌ Deployment failed for notebooks/notebook_demo.ipynb: 400 Client Error: Bad Request for url: https://api.fabric.microsoft.com/v1/workspaces/2d884eec-53e1-496a-b9bd-69afdd529ed9/notebooks
+2025-08-22 00:56:25,166 - INFO - 
+🔧 Deploying to TEST workspace (ID: 7bf01073-78b1-4c5d-86c8-629a0237243b)
+2025-08-22 00:56:25,919 - ERROR - ❌ API response: 400 - {"requestId":"6e43dc5a-6f58-4573-b160-2683a0a516f0","errorCode":"InvalidInput","moreDetails":[{"errorCode":"InvalidParameter","message":"The DisplayName field is required."}],"message":"The request has an invalid input"}
+2025-08-22 00:56:25,919 - ERROR - ❌ Failed to deploy notebook: 400 Client Error: Bad Request for url: https://api.fabric.microsoft.com/v1/workspaces/7bf01073-78b1-4c5d-86c8-629a0237243b/notebooks
+2025-08-22 00:56:25,920 - ERROR - ❌ Deployment failed for notebooks/notebook_demo.ipynb: 400 Client Error: Bad Request for url: https://api.fabric.microsoft.com/v1/workspaces/7bf01073-78b1-4c5d-86c8-629a0237243b/notebooks
+2025-08-22 00:56:25,923 - INFO - 
+🔧 Deploying to PROD workspace (ID: 69850df3-07c5-431b-ab85-475fe2266e70)
+2025-08-22 00:56:26,658 - ERROR - ❌ API response: 400 - {"requestId":"a11715cf-9e75-4480-934d-3697a75de41f","errorCode":"InvalidInput","moreDetails":[{"errorCode":"InvalidParameter","message":"The DisplayName field is required."}],"message":"The request has an invalid input"}
+2025-08-22 00:56:26,658 - ERROR - ❌ Failed to deploy notebook: 400 Client Error: Bad Request for url: https://api.fabric.microsoft.com/v1/workspaces/69850df3-07c5-431b-ab85-475fe2266e70/notebooks
+2025-08-22 00:56:26,658 - ERROR - ❌ Deployment failed for notebooks/notebook_demo.ipynb: 400 Client Error: Bad Request for url: https://api.fabric.microsoft.com/v1/workspaces/69850df3-07c5-431b-ab85-475fe2266e70/notebooks
+2025-08-22 00:56:26,660 - INFO - 
+🎉 Deployment completed! Check fabric_deployment.log for details
